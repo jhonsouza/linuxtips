@@ -28,8 +28,8 @@ services:
     networks:
       - backend
     environment:
+      POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgress
-      
     deploy:
       placement:
         constraints:
